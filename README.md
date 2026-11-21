@@ -6,7 +6,7 @@
 
 NES · Super Nintendo · Nintendo 64 · Game Boy · Game Boy Color · Game Boy Advance · Nintendo DS · Nintendo 3DS · PlayStation · PSP · PS Vita · Sega Master System · Game Gear · Genesis / Mega Drive · 32X · Saturn · Dreamcast
 
-**Android:** available · **iOS, macOS, Windows, Linux:** planned · **Open source:** coming soon
+**Android:** APK release on **November 28, 2026** · **iOS, macOS, Windows, Linux:** planned · **Open source:** coming soon
 
 </div>
 
@@ -16,7 +16,7 @@ NES · Super Nintendo · Nintendo 64 · Game Boy · Game Boy Color · Game Boy A
 
 tonEMU is an all-in-one emulator app that puts your retro and handheld game collection in a single, clean library. It uses proven [Libretro](https://www.libretro.com/) cores under the hood and wraps them in a polished touch-first interface with per-core settings, save states, cheats, box art and local multiplayer.
 
-> **Status:** this is the **initial release**. tonEMU is currently in **beta** and **Android only**, and the source code will be **released as open source soon**. iOS, macOS, Windows and Linux ports are planned. See the [Roadmap](#roadmap).
+> **Status:** the **initial release** is scheduled for **November 28, 2026**. tonEMU is currently in **beta** and **Android only**, and the source code will be **released as open source soon**. iOS, macOS, Windows and Linux ports are planned. See the [Roadmap](#roadmap).
 
 ## Features
 
@@ -95,7 +95,7 @@ tonEMU is an all-in-one emulator app that puts your retro and handheld game coll
 
 ### Android
 
-1. Download the latest APK from the [Releases](../../releases) page.
+1. Starting **November 28, 2026**, download the latest APK from the [Releases](../../releases) page.
 2. Allow installs from unknown sources if prompted.
 3. Open tonEMU, tap import, and pick your ROM files.
 
@@ -166,7 +166,7 @@ With *Combo hotkeys* enabled in settings, a connected gamepad can open the menu,
 
 ## Roadmap
 
-- [x] Android
+- [ ] Android APK release (November 28, 2026)
 - [ ] iOS
 - [ ] macOS
 - [ ] Windows
