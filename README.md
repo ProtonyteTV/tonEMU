@@ -23,8 +23,13 @@ tonEMU is an all-in-one emulator app that puts your retro and handheld game coll
 ### Library
 - **Seventeen systems, one app**: Nintendo, Sony and Sega consoles and handhelds, detected automatically from the file extension
 - **Game library**: import ROMs, sort by recent, search, favorite, and filter by system group
+- **Grid or list view**: switch between a cover grid and a compact list with one tap, and tonEMU remembers your choice
+- **Resume card**: your last played game gets a large card with its cover art, play time and a one-tap Resume button, with the rest of your recent games on a shelf below
+- **Library stats**: see your game count, number of consoles and total play time at a glance
+- **Flexible importing**: add individual files, or import a whole folder (subfolders included) and let tonEMU pick out the supported games; duplicates are skipped, progress is shown, and you get one clear summary at the end
+- **Pull to refresh** to re-scan your library
 - **Automatic box art**: fetched from the Libretro thumbnail repositories and cached on-device, or set your own custom cover
-- **Play time and last played** tracked per game
+- **Play time and last played** tracked per game, with an option to clear a game's play history
 
 ### Dual-screen layouts (DS and 3DS)
 - **Premade layouts**: stacked, side by side, big top screen, big bottom screen, top screen only and bottom screen only (DS also has flipped stacked and flipped side by side)
@@ -48,6 +53,7 @@ tonEMU is an all-in-one emulator app that puts your retro and handheld game coll
 - **Fast-forward**, **mute**, **reset** and **screenshots** in the in-game quick menu
 - **Per-core settings**: one-tap *Performance / Balanced / Quality* presets, with options grouped into Video, Performance, Audio, Input and System
 - **Video filters** (None, Sharp, CRT, LCD), low-latency audio option, and adjustable portrait picture size
+- **Redesigned settings**: a player profile card, clear status badges for BIOS, storage and each core, theme previews for System, Light and Dark, live previews for picture size and button opacity, and a one-tap reset for display and control options
 
 ### System setup
 - **BIOS and system files** imported in Settings, with a ready indicator for each one
@@ -144,9 +150,9 @@ Settings shows a ready indicator for NDS, PSP, PS Vita and PS1 once the files ar
 
 ## Getting started
 
-1. **Import games**: tonEMU detects the system from each file's extension and sorts it into the right group.
+1. **Import games**: tap the **+** button and choose individual files or a whole folder. tonEMU detects the system from each file's extension and sorts it into the right group.
 2. **Import your BIOS / system files** for NDS, PS1, PSP, Saturn and Dreamcast (see [above](#bios--system-files)).
-3. **Tap a game** to launch it.
+3. **Tap a game** to launch it, or press **Resume** on the home screen to jump back into your last game. Long-press a game for favorites, box art and removal options.
 4. **Tune it**: open core settings and pick a Performance, Balanced or Quality preset, or fine-tune individual options.
 
 ### Controller hotkeys
