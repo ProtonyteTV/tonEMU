@@ -14,7 +14,7 @@ NES · Super Nintendo · Nintendo 64 · Game Boy · Game Boy Color · Game Boy A
 
 ## About
 
-tonEMU is an all-in-one emulator app that puts your retro and handheld game collection in a single, clean library. It uses proven [Libretro](https://www.libretro.com/) cores under the hood and wraps them in a polished touch-first interface with per-core settings, save states, cheats, box art and local multiplayer.
+tonEMU is an all-in-one emulator app that puts your retro and handheld game collection in a single, clean library. It uses proven [Libretro](https://www.libretro.com/) cores under the hood and wraps them in a polished touch-first interface with per-core settings, save states, cheats and box art.
 
 > **Status:** the **initial release** is scheduled for **November 28, 2026**. tonEMU is currently in **beta** and **Android only**, and the source code will be **released as open source soon**. iOS, macOS, Windows and Linux ports are planned. See the [Roadmap](#roadmap).
 
@@ -48,7 +48,6 @@ tonEMU is an all-in-one emulator app that puts your retro and handheld game coll
 - **Physical controller support** (Bluetooth and USB): touch controls hide automatically when a gamepad connects; A/B and X/Y swap, stick deadzone, and the controller's Home/Guide button opens the menu
 - **Combo hotkeys**: with Select held, Start opens the menu, R1 quick saves, L1 quick loads, X switches save slot, R3 takes a screenshot, L3 mutes and Y toggles fast-forward. A plain Select press still works as Select
 - **Auto-pause**: the game can pause and open the menu if the controller or headphones drop out
-- **Local multiplayer**: multi-controller local co-op, plus zero-config LAN host and join with automatic room discovery over Wi-Fi
 
 ### Playing
 - **Save states**: four slots with thumbnails, plus a separate auto-save slot and undo for an accidental load. Optional auto-save on quit, periodic auto-save while you play, and an option to always continue automatically
@@ -181,11 +180,6 @@ With *Combo hotkeys* enabled in settings, hold **Select** on a connected gamepad
 
 The controller's Home / Guide button always opens the menu.
 
-## Local multiplayer
-
-- **Local co-op**: up to 4 players on ports 1 to 4, with each connected controller driving its own port, or a virtual P2 overlay.
-- **LAN**: one device hosts a room and shows a **6-digit room code**; other devices discover it automatically over UDP broadcast and join by entering the code. Input and state are synced over TCP (ports `57380` TCP and `57381` UDP). Make sure your devices are on the same network and run the same tonEMU version. A guest's physical controller is forwarded to the host, and the host's save state is only loaded on a guest running the same game and core.
-
 ## Roadmap
 
 - [ ] Android APK release (November 28, 2026)
@@ -197,7 +191,7 @@ The controller's Home / Guide button always opens the menu.
 - [ ] Sega CD
 - [ ] More systems and cores
 
-The app is written in Flutter and the multiplayer layer is already cross-platform. The main porting work is the native emulator-core bridge for each platform.
+The app is written in Flutter, so the main porting work is the native emulator-core bridge for each platform.
 
 ## Disclaimer
 
