@@ -59,6 +59,7 @@ Made a mistake and your last save was twenty minutes ago? jedTimeMachine has you
 ### Controls
 - **Customizable touch controls**: edit mode for the on-screen layout, adjustable opacity, haptic feedback, and separate layouts per system and screen mode
 - **A pad for every system**: the on-screen controls match each console, including the N64 with its analog stick, Z trigger and C-button stick, the 6-button Genesis pad, the 2-button Master System and Game Gear pads, and the Saturn pad
+- **PlayStation DualShock**: PS1 games get an analog (DualShock) controller on both ports. Physical gamepads drive both sticks, L2/R2 and L3/R3. The on-screen PS1 pad adds a second stick, and a quick tap on either stick presses L3 / R3. Digital-only games keep playing normally
 - **Physical controller support** (Bluetooth and USB): up to **four controllers**, one per player. Touch controls can hide automatically when a gamepad connects; A/B and X/Y swap, stick deadzone, and the controller's Home/Guide button opens the menu
 - **Combo hotkeys** (player 1's controller): with Select held, Start opens the menu, R1 quick saves, L1 quick loads, X switches save slot, R3 takes a screenshot, L3 mutes and Y toggles fast-forward. A plain Select press still works as Select
 - **Auto-pause**: the game can pause and open the menu if the controller or headphones drop out
@@ -84,6 +85,7 @@ Made a mistake and your last save was twenty minutes ago? jedTimeMachine has you
 - **3DS and NDS player profile**: set your nickname and birthday once and it is written to the system
 - **PSP**: import the PPSSPP assets zip so system dialogs and fonts show correctly
 - **Themes**: Light, Dark or follow the system, in two visual styles: Classic and Nothing
+- **About, Privacy Policy and licenses**: **Settings → About** opens an About page (version, supported systems, credits), a Privacy Policy and an Open-source licenses list covering every emulator core, library and font the app uses
 
 ## Supported systems
 
@@ -128,6 +130,17 @@ tonEMU keeps everything in one folder, `/storage/emulated/0/tonEMU`, with these 
 - If you decline, tonEMU still works and keeps its files in private app storage instead.
 - If you grant the permission later, tonEMU moves your existing games, saves and BIOS files into the shared folder automatically.
 
+### Permissions and privacy
+
+tonEMU has no accounts, ads or analytics, and your games, saves and settings stay on your device. It asks for:
+
+| Permission | Why |
+|---|---|
+| All files access (storage) | Keep games, BIOS files and saves in the shared `tonEMU` folder. Optional: private app storage is used without it |
+| Internet and network state | Download box art and cheat files from GitHub, and run Wi-Fi transfer |
+
+The full text is in **Settings → About → Privacy Policy**.
+
 ### System requirements (Android)
 
 | | Minimum | Recommended |
@@ -155,6 +168,7 @@ tonEMU keeps everything in one folder, `/storage/emulated/0/tonEMU`, with these 
 Notes:
 - tonEMU renders with OpenGL ES on every system. Vulkan is not used, so a Vulkan-capable GPU is not needed.
 - PS1 needs a BIOS file that you provide. NDS and Saturn run without one but are more compatible with a real BIOS, and NDS needs `bios7.bin`, `bios9.bin` and `firmware.bin` to boot the firmware menu (see below).
+- PS1 uses a DualShock (analog) controller by default, so analog sticks and L3 / R3 work in games that support them.
 - PS1 uses the software renderer by default for compatibility. You can switch to the experimental OpenGL ES renderer in the core settings (it needs a game restart); switch back if you get a black screen.
 - The 3DS core is arm64 only and uses OpenGL ES, so it needs a 64-bit device.
 - On mid-range devices, use the *Performance* preset in core settings.
@@ -211,6 +225,7 @@ The controller's Home / Guide button always opens the menu.
 - [ ] Windows
 - [ ] Linux
 - [ ] Sega CD
+- [ ] PS1 controller rumble
 - [ ] More systems and cores
 
 The app is written in Flutter, so the main porting work is the native emulator-core bridge for each platform.
@@ -240,14 +255,20 @@ Made with dedication by **jedPlatforms**.
 
 ## License
 
-tonEMU's own source code is not publicly available. The emulator cores it uses are third-party projects, and each one keeps its own license. See the project pages in [Credits](#credits) for their terms.
+tonEMU's own source code is not publicly available. The emulator cores it uses are third-party projects, and each one keeps its own license. See the project pages in [Credits](#credits) for their terms, or open **Settings → About → Open-source licenses** in the app. Note that some cores (such as Snes9x and Genesis Plus GX) use non-commercial licenses.
 
 ---
 
 <div align="center">
 
-*In memoriam*
+*In loving memory*
 
-**Ton** · 2026
+**Burlington "TonTon" Lambot**
+
+*Eternal Player One · Guardian of tonEMU*
+
+October 10, 2026 — November 12, 2026
+
+*Game over was never in his vocabulary. Rest easy, Player One. You will always be the hero of this story.* ❤️
 
 </div>
