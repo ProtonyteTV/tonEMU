@@ -1,10 +1,8 @@
 <div align="center">
   <img src="header.png"
        alt="tonEMU Banner"
-       width="100%">
+       width="45%">
 </div>
-
-<br>
 
 <div align="center">
 
