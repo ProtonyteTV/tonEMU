@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/tonemu-banner.png"
+  <img src="header.png"
        alt="tonEMU Banner"
        width="100%">
 </div>
