@@ -84,7 +84,7 @@ Made a mistake and your last save was twenty minutes ago? jedTimeMachine has you
 - **PS1**: can boot the BIOS shell (memory card and CD player screen) when you have a BIOS
 - **3DS and NDS player profile**: set your nickname and birthday once and it is written to the system
 - **PSP**: import the PPSSPP assets zip so system dialogs and fonts show correctly
-- **Themes**: Light, Dark or follow the system, in two visual styles: Classic and Nothing
+- **Themes**: Light, Dark or follow the system, in two visual styles: Classic and Dot
 - **About, Privacy Policy and licenses**: **Settings → About** opens an About page (version, supported systems, credits), a Privacy Policy and an Open-source licenses list covering every emulator core, library and font the app uses
 
 ## Supported systems
