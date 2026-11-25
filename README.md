@@ -16,7 +16,7 @@ NES · Super Nintendo · Nintendo 64 · Game Boy · Game Boy Color · Game Boy A
 
 ## About
 
-tonEMU is an all-in-one emulator app that puts your retro and handheld game collection in a single, clean library. It uses proven [Libretro](https://www.libretro.com/) cores under the hood and wraps them in a polished touch-first interface with per-core settings, save states, cheats, box art and **jedTimeMachine**, a rolling rewind history for every play session.
+tonEMU is an all-in-one emulator app that puts your retro and handheld game collection in a single, clean library. It uses proven [Libretro](https://www.libretro.com/) cores under the hood and wraps them in a polished touch-first interface with per-core settings, save states, cheats, box art and **jedTimeMachine**, a rolling rewind history for every play session. It also works with foldable and flip phones.
 
 > **Status:** the **initial release** is scheduled for **November 28, 2026**. tonEMU is currently in **beta** and **Android only**. iOS, macOS, Windows and Linux ports are planned. See the [Roadmap](#roadmap).
 
@@ -46,6 +46,15 @@ Made a mistake and your last save was twenty minutes ago? jedTimeMachine has you
 - **Automatic box art**: fetched from the Libretro thumbnail repositories and cached on-device, or set your own custom cover
 - **Play time and last played** tracked per game, with an option to clear a game's play history
 
+### Foldable and flip phones
+- **The whole app is fold-aware**, not only games. Half-open a **Z Flip** (tabletop posture) and the app moves to the lower half, under your thumbs and away from the crease; the upper half shows a themed panel
+- **Book-style folds** (Z Fold half-open, and dual-screen phones with a hinge gap): the app sits on one page and the other page shows the same panel, so nothing is ever drawn across the crease
+- **Dialogs, sheets and menus** stay inside the usable area too
+- **Fully unfolded or flat** foldables are treated as a big screen and use the wide tablet layouts
+- **Folding while you use the app** doesn't lose your place: the current page, scroll position and open dialogs survive
+- **In games**, the picture stays above the hinge in tabletop posture, with layouts for book-style folds as well
+- **Your choice**: switch it off in **Settings → Display & Controls → Appearance → Fold & flip layout** if your phone reports its hinge wrongly
+
 ### Dual-screen layouts (DS and 3DS)
 - **Premade layouts**: stacked, side by side, big top screen, top screen only and bottom screen only. DS adds big bottom screen, flipped stacked and flipped side by side
 - **Free form**: place and resize the two screens independently, anywhere on the display
@@ -54,7 +63,6 @@ Made a mistake and your last save was twenty minutes ago? jedTimeMachine has you
 - **Move and resize**: drag the picture anywhere and pinch or use the slider to resize it
 - **Touch screen that stays accurate** in every layout, including the single-screen modes
 - **Rotation-safe**: the picture is refreshed after rotating so it never stays stuck at the old size
-- **Foldable support**: Z Flip tabletop posture keeps the picture above the hinge, with layouts for book-style folds too
 
 ### Controls
 - **Customizable touch controls**: edit mode for the on-screen layout, adjustable opacity, haptic feedback, and separate layouts per system and screen mode
@@ -69,7 +77,9 @@ Made a mistake and your last save was twenty minutes ago? jedTimeMachine has you
 - **Save states**: **60 slots** with thumbnails and a next-empty-slot shortcut, plus a separate auto-save slot and undo for an accidental load. Optional auto-save on quit, periodic auto-save while you play, and an automatic save when the battery runs low
 - **Smart resume**: by default a game with an auto-save jumps straight back in and offers a short-lived Start over button. You can switch to the old Continue / New game prompt, or always start fresh
 - **Battery saves** (in-game saves) written automatically and safely, so a crash or a full disk never destroys your previous save
-- **Cheats**: add and manage cheats per game, with a built-in cheat browser for every system. Cheat files come from the libretro cheat database the first time a game needs them (internet required) and are cached afterwards. Not every core supports cheats, so tonEMU warns you where a core may ignore them
+- **Cheats**: add and manage cheats per game, with a built-in cheat browser for every system. The cheat manager and browser follow your chosen theme (Classic or Dot, Light or Dark), and the manager stays compact in landscape so the list keeps its room. Cheat files come from the libretro cheat database the first time a game needs them (internet required) and are cached afterwards. Not every core supports cheats, so tonEMU warns you where a core may ignore them
+- **Break reminder** (optional): a gentle note after **30 minutes, 1 hour or 1.5 hours** of play in one session. It only counts time the game is actually running, shows once per interval and never interrupts the game. Off by default, in **Settings → Display & Controls → Saves**
+- **Session timer**: the in-game menu shows how long you have been playing this session
 - **Fast-forward**, **mute**, **reset** and **screenshots** in the in-game quick menu, with optional export of screenshots to your gallery
 - **Per-core settings**: one-tap *Performance / Balanced / Quality* presets, with options grouped into Video, Performance, Audio, Input and System
 - **Safe by design**: options that a core only reads at startup are never changed on a running game, values known to crash on phones are blocked, and if a launch fails, that core's settings are reset on the next start so the game can open again
@@ -173,6 +183,7 @@ Notes:
 - The 3DS core is arm64 only and uses OpenGL ES, so it needs a 64-bit device.
 - On mid-range devices, use the *Performance* preset in core settings.
 - jedTimeMachine adds a small amount of storage use while you play (snapshots are capped and cleared after each session).
+- Flip phones: the fold and flip layout applies to the main (inner) display. The small outer cover screen isn't specifically supported yet.
 
 > RAM and storage figures are general guidance, not hard limits. Real performance depends on your chipset, the game and the core settings you choose.
 
@@ -226,6 +237,7 @@ The controller's Home / Guide button always opens the menu.
 - [ ] Linux
 - [ ] Sega CD
 - [ ] PS1 controller rumble
+- [ ] Flip cover-screen support
 - [ ] More systems and cores
 
 The app is written in Flutter, so the main porting work is the native emulator-core bridge for each platform.
