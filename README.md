@@ -268,7 +268,7 @@ The app is written in Flutter, so the main porting work is the native emulator-c
 
 **tonEMU is free and open-source software, released under the [GNU General Public License v3.0 or later](https://www.gnu.org/licenses/gpl-3.0.html) (GPL-3.0-or-later).** Its source code is available at [github.com/ProtonyteTV/tonEMU](https://github.com/ProtonyteTV/tonEMU). You are free to use, study, modify and share it under the terms of that license.
 
-tonEMU is built on free and open-source software. Every emulator core and library stays under its own license, and the full texts (GPL-2.0, GPL-3.0, MPL-2.0 and the libretro MIT header) ship inside the app under **Settings → About → Open-source licenses → Full license texts**.
+tonEMU is built on free and open-source software. Every emulator core and library stays under its own license, and the full texts (GPL-2.0, GPL-3.0, MPL-2.0, Apache-2.0 and the libretro MIT header) ship inside the app under **Settings → About → Open-source licenses → Full license texts**.
 
 ### Emulator cores and frontend libraries
 
@@ -276,6 +276,8 @@ tonEMU is built on free and open-source software. Every emulator core and librar
 |---|---|---|
 | [LibretroDroid](https://github.com/Swordfish90/LibretroDroid) | Android libretro frontend (game surface, audio, input) | GPL-3.0 |
 | [libretro API](https://github.com/libretro/RetroArch) / RetroArch | Core interface and thumbnail database | MIT (`libretro.h`) · GPL-3.0 (RetroArch) |
+| [libretro-common](https://github.com/libretro/libretro-common) | Shared C helper code bundled inside LibretroDroid | MIT |
+| [Oboe](https://github.com/google/oboe) | Low-latency audio output inside LibretroDroid | Apache-2.0 |
 | [FCEUmm](https://github.com/libretro/libretro-fceumm) | NES / Famicom | GPL-2.0 |
 | [bsnes](https://github.com/libretro/bsnes) | Super Nintendo | GPL-3.0 |
 | [Gambatte](https://github.com/libretro/gambatte-libretro) | Game Boy / Game Boy Color | GPL-2.0 |
@@ -324,7 +326,7 @@ All console and game names, logos and trademarks belong to their respective owne
 
 tonEMU is made possible by these open-source projects:
 
-- [Libretro](https://www.libretro.com/) and [LibretroDroid](https://github.com/Swordfish90/LibretroDroid)
+- [Libretro](https://www.libretro.com/), [LibretroDroid](https://github.com/Swordfish90/LibretroDroid) and [Oboe](https://github.com/google/oboe)
 - [FCEUmm](https://github.com/libretro/libretro-fceumm), [bsnes](https://github.com/libretro/bsnes), [Mupen64Plus-Next](https://github.com/libretro/mupen64plus-libretro-nx), [Gambatte](https://github.com/libretro/gambatte-libretro), [mGBA](https://mgba.io/), [melonDS](https://melonds.kuribo64.net/), [SwanStation](https://github.com/libretro/swanstation), [PPSSPP](https://www.ppsspp.org/) and [Azahar](https://azahar-emu.org/)
 - [BlastEm](https://github.com/libretro/blastem), [Gearsystem](https://github.com/drhelius/Gearsystem), [Yabause](https://github.com/libretro/yabause), [PokeMini](https://github.com/libretro/PokeMini) and [Beetle Cygne](https://github.com/libretro/beetle-wswan-libretro)
 - [Flutter](https://flutter.dev/)
