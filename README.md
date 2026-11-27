@@ -26,7 +26,7 @@ NES · Super Nintendo · Nintendo 64 · Game Boy · Game Boy Color · Game Boy A
 
 tonEMU is an all-in-one emulator app that puts your retro and handheld game collection in a single, clean library. It uses proven [Libretro](https://www.libretro.com/) cores under the hood and wraps them in a polished touch-first interface with per-core settings, save states, cheats, box art, save backups and **jedTimeMachine**, a rolling rewind history for every play session. It also works with foldable and flip phones.
 
-> **Status:** the **initial release (v27.0)** is scheduled for **November 28, 2026**. tonEMU is **Android only** for now. iOS, macOS, Windows and Linux ports are planned. See the [Roadmap](#roadmap).
+> **Status:** The **initial release (v27.0)** was officially released on **November 28, 2026**. tonEMU is currently **Android-only**. Ports for iOS, macOS, Windows, and Linux are planned for future development. See the [Roadmap](#roadmap) for planned features and platform support.
 
 ## Flagship feature: jedTimeMachine
 
