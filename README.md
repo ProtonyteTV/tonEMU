@@ -12,7 +12,7 @@
 
 NES · Super Nintendo · Nintendo 64 · Game Boy · Game Boy Color · Game Boy Advance · Nintendo DS · Nintendo 3DS · PlayStation · PSP · Sega Master System · Game Gear · Genesis / Mega Drive · Saturn · Pokémon Mini · WonderSwan / Color
 
-**Android:** APK release on **November 28, 2026** · **iOS, macOS, Windows, Linux:** planned
+**Android:** APK officially released on **November 28, 2026** · **iOS, macOS, Windows, and Linux:** planned.
 
 **Free and open source · GPL-3.0-or-later**
 
