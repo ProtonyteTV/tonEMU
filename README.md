@@ -16,6 +16,8 @@ NES · Super Nintendo · Nintendo 64 · Game Boy · Game Boy Color · Game Boy A
 
 **Free and open source · GPL-3.0-or-later**
 
+[☕ Support tonEMU on Buy Me a Coffee](https://buymeacoffee.com/jedplatforms)
+
 </div>
 
 ---
@@ -335,9 +337,13 @@ tonEMU is made possible by these open-source projects:
 
 Made with dedication by **jedPlatforms**.
 
+## Support the project
+
+tonEMU is free and always will be, with no ads, accounts or paywalls. If you enjoy it and want to help with development, you can [buy me a coffee](https://buymeacoffee.com/jedplatforms). It is completely optional, and you will also find it in the app under **Settings → Support tonEMU**. Sharing the project, reporting bugs and contributing code help just as much.
+
 ## Contact
 
-[jedplatforms.vercel.app](https://jedplatforms.vercel.app) · [GitHub](https://github.com/ProtonyteTV) · [X](https://x.com/ProtonyteTV) · jedplatforms@gmail.com
+[jedplatforms.vercel.app](https://jedplatforms.vercel.app) · [Buy Me a Coffee](https://buymeacoffee.com/jedplatforms) · [GitHub](https://github.com/ProtonyteTV) · [X](https://x.com/ProtonyteTV) · jedplatforms@gmail.com
 
 ---
 
