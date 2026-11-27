@@ -1,0 +1,14 @@
+tonEMU - Multi-System Emulator Frontend
+Copyright (C) 2026 Kyle Genesis F. Lambot
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+Source Code: https://github.com/ProtonyteTV/tonEMU
+
+The name "tonEMU" and the tonEMU logo are not covered by the GNU General Public License. All rights to the tonEMU name and logo are reserved by their respective owner.
+
+Emulator cores, libraries, and other third-party components bundled with tonEMU retain their respective licenses and copyright notices. Their licensing information is provided separately in this screen.
+
+Please refer to the individual license notices for the applicable terms and conditions.

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="external" path="tonEMU/saves"/>
+    <exclude domain="external" path="tonEMU/saves/Azahar"/>
+    <exclude domain="external" path="tonEMU/saves/Citra"/>
+</full-backup-content>

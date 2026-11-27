@@ -1,0 +1,63 @@
+name: xemu
+description: "tonEMU multi-system emulator."
+publish_to: 'none'
+
+# versionName = 27.0.0, versionCode = 27. Raise the number after "+" for every Play upload.
+version: 27.0.0+27
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^8.3.7        # pinned to the version in pubspec.lock
+  path_provider: ^2.1.4      # Managing saves, states, and system folders
+  shared_preferences: ^2.3.2 # Saving custom button & dual-screen coordinates
+  material_ui: ^1.11.1
+  cupertino_icons: ^1.0.8
+  wakelock_plus: ^1.2.8      # Keeps the screen on during Wi-Fi transfers
+  cupertino_ui: ^1.1.7       # pinned to the version in pubspec.lock
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/licenses/
+
+  fonts:
+    - family: Doto
+      fonts:
+        - asset: assets/fonts/Doto-ExtraBold.ttf
+          weight: 400
+        - asset: assets/fonts/Doto-ExtraBold.ttf
+          weight: 700
+        - asset: assets/fonts/Doto-ExtraBold.ttf
+          weight: 900
+    - family: SpaceMono
+      fonts:
+        - asset: assets/fonts/SpaceMono-Regular.ttf
+        - asset: assets/fonts/SpaceMono-Bold.ttf
+          weight: 700
+    - family: SpaceGrotesk
+      fonts:
+        - asset: assets/fonts/SpaceGrotesk-VariableFont_wght.ttf
+          weight: 400
+        - asset: assets/fonts/SpaceGrotesk-VariableFont_wght.ttf
+          weight: 500
+        - asset: assets/fonts/SpaceGrotesk-VariableFont_wght.ttf
+          weight: 600
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 26
+  adaptive_icon_background: "#121212"
+  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"
+  adaptive_icon_foreground_inset: 20

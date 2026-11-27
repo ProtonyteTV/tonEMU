@@ -1,0 +1,106 @@
+# ───────────── SECRETS: never commit these ─────────────
+android/key.properties
+android/local.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+.env
+.env.*
+google-services.json
+GoogleService-Info.plist
+
+# ───────────── Personal / scratch files ─────────────
+log.txt
+project_structure.txt
+*.log
+
+# ───────────── Flutter / Dart generated ─────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+**/ephemeral/
+coverage/
+*.g.dart.bak
+.metadata.bak
+
+# ───────────── Android / Gradle generated ─────────────
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/app/.cxx/
+android/libretrodroid/build/
+android/libretrodroid/.cxx/
+android/captures/
+android/app/debug/
+android/app/profile/
+android/app/release/
+**/GeneratedPluginRegistrant.java
+*.apk
+*.aab
+*.ap_
+*.dex
+native-debug-symbols.zip
+
+# ───────────── iOS / macOS generated ─────────────
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/Pods/
+ios/.symlinks/
+**/xcuserdata/
+macos/Flutter/ephemeral/
+macos/Pods/
+DerivedData/
+
+# ───────────── Linux / Windows / Web generated ─────────────
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+web/.dart_tool/
+
+# ───────────── IDE files ─────────────
+.idea/
+*.iml
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ───────────── Never commit games or BIOS files ─────────────
+*.nes
+*.sfc
+*.smc
+*.z64
+*.n64
+*.v64
+*.gb
+*.gbc
+*.gba
+*.nds
+*.3ds
+*.cia
+*.cci
+*.chd
+*.cso
+*.iso
+*.sms
+*.gg
+*.md.rom
+*.srm
+*.state
+scph*.bin
+bios7.bin
+bios9.bin
+firmware.bin
+gba_bios.bin
+saturn_bios.bin
+
+# ───────────── Proprietary Tools ─────────────
+tools/
+tools/check16k.py
+tools/jedStruct.py
